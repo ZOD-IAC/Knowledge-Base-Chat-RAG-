@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# ChromaDB local vector store
+backend/chroma_store/
+
+# Uploaded PDFs (user data, not for version control)
+uploads/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Jupyter (if used for experimentation)
+.ipynb_checkpoints/
+*.ipynb
+
+# Ollama (model files are local, never commit these)
+*.gguf
+*.bin
+models/

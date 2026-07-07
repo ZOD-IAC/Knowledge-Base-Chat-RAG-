@@ -43,7 +43,6 @@ if "collection" in st.session_state:
                     "question": question,
                     "collection_name": st.session_state["collection"]
                 })
-                print(res ,'<-----')
                 answer = res.json()["answer"]
                 st.write(answer)
                 st.session_state["messages"].append({"role": "assistant", "content": answer})
